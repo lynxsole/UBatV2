@@ -13,9 +13,11 @@ int main()
 {
 
     int array[50];
+        
 
-    Sfile test;
 
-    test.countFile();
+    Sfile Run;
+
+        Run.countFile();
     return 0;
 }
