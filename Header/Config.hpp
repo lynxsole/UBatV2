@@ -21,6 +21,7 @@ public:
          if (fs::is_regular_file(entry)) {
             count++;
             if(count == Verification){
+                cout << "Le nombre de fichiers Max est Ateint " << count << endl;
                 system("cls");
             }
         }
