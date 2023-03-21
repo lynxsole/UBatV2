@@ -6,6 +6,7 @@
 #include <filesystem>
 
 using namespace std;
+namespace fs = std::filesystem;
 
 class Sfile
 {
@@ -27,7 +28,7 @@ public:
         }
     }
 
-    cout << "Le nombre de fichiers dans le dossier est : " << count << endl;
+        cout << "Le nombre de fichiers dans le dossier est : " << count << endl;
 
     return;
     }

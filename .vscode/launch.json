@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "C:/Users/john/Desktop/UBat",
-      "program": "C:/Users/john/Desktop/UBat/Main.exe",
+      "cwd": "E:/bureau/UBat",
+      "program": "E:/bureau/UBat/Main.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
