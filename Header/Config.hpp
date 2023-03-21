@@ -16,7 +16,7 @@ public:
     void countFile()
     {
         int count = 0;
-        string path = "../Script";
+        string path = "Script";
 
         for (const auto & entry : fs::directory_iterator(path)) {
          if (fs::is_regular_file(entry)) {
