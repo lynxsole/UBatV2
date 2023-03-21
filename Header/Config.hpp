@@ -11,7 +11,7 @@ namespace fs = std::filesystem;
 class Sfile
 {
 private:
-   int Verification = (10);
+   int m_Verification = (10);
 public:
     void countFile()
     {
@@ -21,7 +21,7 @@ public:
         for (const auto & entry : fs::directory_iterator(path)) {
          if (fs::is_regular_file(entry)) {
             count++;
-            if(count == Verification){
+            if(count == m_Verification){
                 cout << "Le nombre de fichiers Max est Ateint " << count << endl;
                 system("cls");
             }
