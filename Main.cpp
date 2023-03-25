@@ -9,15 +9,20 @@
 
 using namespace std;
 
+void tableau(){
+    std::vector<string> tab;
+        
+
+};
+
 int main()
 {
-
-    int array[50];
+    
+    
         
 
 
     Sfile Run;
-
         Run.countFile();
     return 0;
 }
