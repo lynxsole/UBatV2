@@ -19,10 +19,10 @@ namespace fs = std::filesystem;
     {
 
         private:
-           std::string fileExtension = ".bat";
-           std::string fileName = "file";
+            std::string fileExtension = ".bat";
+            std::string fileName = "file";
             std::vector<string> list;
-            list.push_back(fileName); 
+            
 
             
         public:

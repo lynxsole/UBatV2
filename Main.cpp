@@ -9,23 +9,17 @@
 
 using namespace std;
 
-void tableau(){
-    std::vector<string> tab;
-    tab.push_back("salut");
-
-    for(int i = 0; i < 3; i++){
-        cout << tab[i] << endl;
-    }
-        
-
-};
-
 int main()
 {
-    
-    
-        
+    std::vector<string> tab;
+    tab.push_back("salut");
+    tab.push_back("tout");
+    tab.push_back("le");
+    tab.push_back("monde");
 
+    for(int i = 0; i < tab.size(); i++){
+        cout << tab[i] << endl;
+    }
 
     Sfile Run;
         Run.countFile();
