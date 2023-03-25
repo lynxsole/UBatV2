@@ -8,7 +8,7 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-class Sfile
+class fileC
 {
 private:
    int m_Verification = (10);
@@ -23,7 +23,7 @@ public:
          if (fs::is_regular_file(entry)) {
             count++;
             if(count > m_Verification){
-                ofstream logF("Log/log.txt");
+                std::ofstream logF("Log/log.txt");
                 if(logF)
                 {
                     logF << m_log;
@@ -40,8 +40,6 @@ public:
     return;
     }
 };
-
-
 
 
 #endif

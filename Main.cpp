@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-    Sfile Run;
+    fileC Run;
     string a;
     std::vector<string> listTab;
     listTab.push_back("salut");
