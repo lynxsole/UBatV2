@@ -11,14 +11,16 @@ using namespace std;
 
 int main()
 {
-    std::vector<string> tab;
-    tab.push_back("salut");
-    tab.push_back("tout");
-    tab.push_back("le");
-    tab.push_back("monde");
+    string a;
+    std::vector<string> listTab;
+    listTab.push_back("salut");
+    listTab.push_back("tout");
+    listTab.push_back("le");
+    listTab.push_back("monde");
 
-    for(int i = 0; i < tab.size(); i++){
-        cout << tab[i] << endl;
+    for(int i = 0; i < listTab.size(); i++){
+        cout << listTab[i] << endl;
+        cin >> a;
     }
 
     Sfile Run;

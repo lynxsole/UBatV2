@@ -9,7 +9,7 @@
       "stopAtEntry": false,
       "externalConsole": true,
       "cwd": "e:/bureau/UBat",
-      "program": "e:/bureau/UBat/build/Debug/outDebug",
+      "program": "E:/bureau/UBat/Main.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

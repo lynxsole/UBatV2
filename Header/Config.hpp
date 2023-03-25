@@ -12,6 +12,7 @@ class Sfile
 {
 private:
    int m_Verification = (10);
+   std::string m_log = "limite de fichier depasser";
 public:
     void countFile()
     {
@@ -22,12 +23,18 @@ public:
          if (fs::is_regular_file(entry)) {
             count++;
             if(count == m_Verification){
-                cout << "Le nombre de fichiers Max est Ateint " << count << endl;
-                system("cls");
+                ofstream logF("/Log/log.txt");
+                if(logF)
+                {
+                    logF << m_log;
+                }
             }
         }
+
+      
     }
 
+        
         cout << "Le nombre de fichiers dans le dossier est : " << count << endl;
 
     return;
