@@ -11,6 +11,7 @@ using namespace std;
 
 int main()
 {
+    Sfile Run;
     string a;
     std::vector<string> listTab;
     listTab.push_back("salut");
@@ -21,9 +22,10 @@ int main()
     for(int i = 0; i < listTab.size(); i++){
         cout << listTab[i] << endl;
         cin >> a;
+        Run.countFile();
     }
 
-    Sfile Run;
-        Run.countFile();
+   
+        
     return 0;
 }

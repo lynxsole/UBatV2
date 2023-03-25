@@ -16,14 +16,14 @@ private:
 public:
     void countFile()
     {
-        int count = 0;
+        int count = 20;
         string path = "Script";
 
         for (const auto & entry : fs::directory_iterator(path)){
          if (fs::is_regular_file(entry)) {
             count++;
-            if(count == m_Verification){
-                ofstream logF("/Log/log.txt");
+            if(count > m_Verification){
+                ofstream logF("Log/log.txt");
                 if(logF)
                 {
                     logF << m_log;
