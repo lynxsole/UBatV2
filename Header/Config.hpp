@@ -18,7 +18,7 @@ public:
         int count = 0;
         string path = "Script";
 
-        for (const auto & entry : fs::directory_iterator(path)) {
+        for (const auto & entry : fs::directory_iterator(path)){
          if (fs::is_regular_file(entry)) {
             count++;
             if(count == m_Verification){
