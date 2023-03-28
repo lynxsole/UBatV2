@@ -1,9 +1,9 @@
-//Header system
+//system
 #include<iostream>
 #include<fstream>
 #include<vector>
 
-//Header Perso
+//Perso
 #include "Header/Config.hpp"
 #include "Header/FileVerif.hpp"
 
