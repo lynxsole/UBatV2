@@ -22,7 +22,7 @@ public:
         for (const auto & entry : fs::directory_iterator(path)){
          if (fs::is_regular_file(entry)) {
             count++;
-            if(count >= m_Verification){
+            if(count > m_Verification){
                 std::ofstream logF("Log/log.txt");
                 if(logF)
                 {
