@@ -34,7 +34,6 @@ public:
       
     }
 
-        
         cout << "Le nombre de fichiers dans le dossier est : " << count << endl;
 
     return;
