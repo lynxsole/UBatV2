@@ -13,7 +13,6 @@ namespace fs = std::filesystem;
 
 
 #ifndef WIN32
-    #include <sys/types.h>
 #endif
  class FileCount
     {
