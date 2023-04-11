@@ -19,7 +19,7 @@ int main()
     listTab.push_back("le");
     listTab.push_back("monde");
 
-    for(int i = 0; i < listTab.size(); i++){
+    for(int i = 5; i > listTab.size(); i++){
         cout << listTab[i] << endl;
         cin >> a;
         Run.countFile();
